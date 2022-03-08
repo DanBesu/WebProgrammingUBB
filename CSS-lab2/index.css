@@ -1,0 +1,93 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+h1{
+  margin: 50px 1px
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button{
+  height: 200px;
+  width: 200px;
+  margin: 1px 100px;
+  text-align: center;
+  background-color: #ffe1a8;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.version1:hover{
+  background-color: #b3b67c;
+  box-shadow: -10px 5px;
+}
+
+button.version2:hover{
+  background-color: #e26d5c;
+  filter: drop-shadow(-10px 5px);
+}
+
+.version3-container{
+  width: 400px;
+  height: 210px;
+}
+
+.version3{
+  box-shadow: -10px 5px;
+}
+
+button.version3:hover{
+  margin-top: 10px;
+  box-shadow: 0px 0px;
+  background-color: #ff66b3;
+}
+
+.robo-box{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.mini{
+  width: 100px;
+  height: 100px;
+}
+
+.maxi{
+  width: 300px;
+  height: 300px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border: 1px solid black;
+  border-radius: 150px;
+  background-color: #bce0f0;
+}
+
+.mini-dan:hover ~ .maxi{
+  content: url(https://robohash.org/dan);
+}
+
+.mini-paul:hover ~ .maxi{
+  content: url(https://robohash.org/paul);
+}
+
+.mini-andrei:hover ~ .maxi{
+  content: url(https://robohash.org/andrei);
+}
+
+.mini-ionut:hover ~ .maxi{
+  content: url(https://robohash.org/ionut);
+}
+
+.mini-alex:hover ~ .maxi{
+  content: url(https://robohash.org/alex);
+}
