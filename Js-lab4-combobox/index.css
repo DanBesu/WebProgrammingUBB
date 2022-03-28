@@ -1,0 +1,87 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h3, h4, div{
+  font-weight: 400;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+select{
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+select:focus{
+  outline: none;
+}
+
+input{
+  padding-left: 8px;
+  border: none;
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+input:focus{
+  outline: none;
+}
+
+button{
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #FFD300;
+}
+
+button:hover{
+  background-color: #00D7FF;
+  color: white;
+}
+
+
+.select-input-wrapper{
+  border: 1px solid #00D7FF;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.print-buttons-wrapper{
+  margin-top: 15px;
+}
+
+#printed-collection{
+  margin-top: 15px;
+  font-size: 23px;
+}
+
+.emoji-wrapper{
+  height: auto;
+  width: 700px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.title{
+  margin-top: 15px;
+}
+
+.emoji-list{
+  cursor: grab;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 17px;
+}
