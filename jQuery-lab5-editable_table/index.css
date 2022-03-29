@@ -1,0 +1,97 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.title{
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+
+.statement{
+  font-size: 25px;
+}
+
+.restrictions{
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.problem-statement {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-indent: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 1s;
+    width: 100%;
+}
+
+.problem-statement:hover{
+  box-shadow: 0px 5px 50px;
+}
+
+.statement-container{
+  width: 75%;
+}
+
+button{
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #68C3D4;
+  border: 1px solid transparent;
+  width: 100px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+button:hover{
+  padding: 5px;
+}
+
+table {
+    text-align: center;
+    width: 70%;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    text-indent: 30px;
+    position:relative;
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background: #FFFFFF;
+}
+
+tr:nth-child(even){
+    background: #FFE8D1;
+}
+
+th {
+    text-align: center;
+    background: #568EA3;
+    height: 65px;
+    transition: 1.5s;
+}
+
+th:hover{
+  border-radius: 100px;
+}
+
+tr{
+  text-align: center;
+  height: 40px;
+}
+
+.row {
+    height: 27px;
+}

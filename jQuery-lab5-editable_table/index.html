@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab5 jQuery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="title">jQuery Demonstration</div>
+    <div class="statement">
+      Solve the following task using only the jQuery library
+   </div>
+   <div class="statement">
+     (production version, jquery.min.js, or developement version, jquery.js);
+   </div>
+   <div class="restrictions">
+     YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN OR EXTENSION BESIDES THE
+     JQUERY LIBRARY.
+   </div>
+    <div class="problem-statement">
+      <div class="statement-container">
+        Write a web page which contains a table with 5 lines and 5
+        columns. Besides these 5 columns there are 2 special columns,
+        one on the left side and another one on the right side containing
+        buttons. If the user clicks on a button from the left column, the
+        row of the table which contains that button will be deleted and
+        all the rows above that row will be shifted down with one row.
+        If the user clicks on a button from the right column, a new editable
+        table row is added just bellow the current row. The user can edit this
+        row and if all the cells from this row are filled with data,
+        the row becomes read-only (like the rest of the rows in the table).
+      </div>
+    </div>
+    <table id="table-users">
+        <tr>
+            <th>Add button</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Favourite Technology</th>
+            <th>Favourite IDE</th>
+            <th>Remove button</th>
+        </tr>
+        <tr>
+            <td><button class="remove-row">Remove</button></td>
+            <td>Alex</td>
+            <td>Albu</td>
+            <td>20</td>
+            <td>Vue</td>
+            <td>Intellij</td>
+            <td><button class="add-row">Add</button></td>
+        </tr>
+        <tr>
+            <td><button class="remove-row">Remove</button></td>
+            <td>Ionut</td>
+            <td>Boca</td>
+            <td>20</td>
+            <td>C</td>
+            <td>Terminal</td>
+            <td><button class="add-row">Add</button></td>
+        </tr>
+        <tr>
+            <td><button class="remove-row">Remove</button></td>
+            <td>Dan</td>
+            <td>Besu</td>
+            <td>21</td>
+            <td>React</td>
+            <td>Atom</td>
+            <td><button class="add-row">Add</button></td>
+        </tr>
+        <tr>
+            <td><button class="remove-row">Remove</button></td>
+            <td>Andrei</td>
+            <td>Buiciuc</td>
+            <td>21</td>
+            <td>.NET</td>
+            <td>Visual Studio</td>
+            <td><button class="add-row">Add</button></td>
+        </tr>
+        <tr>
+            <td><button class="remove-row">Remove</button></td>
+            <td>Paul</td>
+            <td>Adam</td>
+            <td>20</td>
+            <td>Ruby on Rails</td>
+            <td>VS Code</td>
+            <td><button class="add-row">Add</button></td>
+        </tr>
+    </table>
+</body>
+</html>
