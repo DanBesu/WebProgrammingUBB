@@ -1,0 +1,9 @@
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-item{
+  width: 150px;
+  margin: 5px;
+}
